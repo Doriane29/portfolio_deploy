@@ -1,0 +1,53 @@
+@charset "utf-8";
+/*font-family: 'Raleway', sans-serif;*/
+*{
+	box-sizing: border-box;
+}
+
+body, html{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.container-fluid {
+
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar{
+	z-index: 1;
+	top: 0;
+	position: sticky;
+}
+
+nav ul li{
+    margin: 30px 40px;
+}
+
+
+@media  screen and (max-width: 768px) {
+	/* For mobile phones: */
+	[class*="col-"] {
+	  width: 100%;
+	}
+  }
+
+
+#sticky-footer {
+	flex-shrink: none;
+	position: fixed;
+	background-color: lightgrey;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+
+}
